@@ -26,7 +26,7 @@ public class PelotaFutbol implements IElementos {
 
     @Override
     public void create() {
-        System.out.println("creando camiseta");
+        System.out.println("creando pelota de futbol");
         
     }
     @Override

@@ -4,10 +4,10 @@ public class CreatorShorts extends CreatorElementos{
 
     @Override
     public IElementos create() {
-        Camiseta camiseta = new Camiseta();
-        camiseta.setColor("plomo");
-        camiseta.setGarantia("1 año");
-        camiseta.setTamano("S");
-        return camiseta;
+        Shorts short1 = new Shorts();
+        short1.setColor("plomo");
+        short1.setGarantia("1 año");
+        short1.setTamano("S");
+        return short1;
     }
 }

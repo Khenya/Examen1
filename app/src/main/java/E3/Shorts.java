@@ -26,7 +26,7 @@ public class Shorts implements IElementos{
 
     @Override
     public void create() {
-        System.out.println("creando Short");
+        System.out.println("creando shorts");
         
     }
     @Override

@@ -5,7 +5,9 @@ public class Estudiante {
     private String ci;
 
     
-    public Estudiante() {
+    public Estudiante(String nom, String ci) {
+        this.nombre = nom;
+        this.ci = ci;
     }
     public String getNombre() {
         return nombre;

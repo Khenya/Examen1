@@ -13,12 +13,14 @@ public class Cliente {
         IElementos camiseta = new CreatorCamiseta().create();
         camiseta.create();
         camiseta.showInfo();
-        
+
         IElementos shorts = new CreatorShorts().create();
         shorts.create();
         shorts.showInfo();
+
         IElementos medias = new CreatorMedias().create();
         medias.create();
         medias.showInfo();
+        
     }
 }

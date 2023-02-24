@@ -4,10 +4,10 @@ public class CreatorPelotaFutbol extends CreatorElementos{
 
     @Override
     public IElementos create() {
-        Camiseta camiseta = new Camiseta();
-        camiseta.setColor("negra");
-        camiseta.setGarantia("1 año");
-        camiseta.setTamano("S");
-        return camiseta;
+        PelotaFutbol pelotaFutbol = new PelotaFutbol();
+        pelotaFutbol.setColor("negra");
+        pelotaFutbol.setGarantia("1 año");
+        pelotaFutbol.setTamano("S");
+        return pelotaFutbol;
     }
 }
